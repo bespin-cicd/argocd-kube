@@ -13,6 +13,6 @@ spec:
         run: argocd-kube
     spec:
       containers:
-      - image: 
+      - image: aviteria/docker-repo:32e5123
         name: argocd-kube-container
 
