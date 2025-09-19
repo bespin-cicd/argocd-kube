@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: argocd-kube-deploy
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       run: argocd-kube
