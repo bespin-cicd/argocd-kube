@@ -13,7 +13,7 @@ spec:
         run: argocd-kube
     spec:
       containers:
-      - image: aviteria/docker-repo:0cedb34
+      - image: aviteria/docker-repo:aaacea4
         name: argocd-kube-container
       imagePullSecrets:
       - name: ecr-registry-secret
