@@ -15,4 +15,7 @@ spec:
       containers:
       - image: 335037124578.dkr.ecr.ap-northeast-2.amazonaws.com/ecr-repo:3f0050f
         name: argocd-kube-container
+      imagePullSecrets:
+      - name: ecr-registry-secret
+
 
