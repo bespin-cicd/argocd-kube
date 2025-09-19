@@ -13,7 +13,7 @@ spec:
         run: argocd-kube
     spec:
       containers:
-      - image: 335037124578.dkr.ecr.ap-northeast-2.amazonaws.com/ecr-repo:3f0050f
+      - image: aviteria/docker-repo:0cedb34
         name: argocd-kube-container
       imagePullSecrets:
       - name: ecr-registry-secret
